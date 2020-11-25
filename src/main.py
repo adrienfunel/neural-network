@@ -31,4 +31,11 @@ def main():
 
 
 if __name__ == "__main__":
+    from time import perf_counter
+    start = perf_counter()
+
     main()
+
+    end = perf_counter()
+    elapsed = end - start
+    print(f"Elapsed time in seconds {elapsed:0.2f}")
