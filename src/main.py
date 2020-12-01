@@ -1,5 +1,6 @@
 import numpy as np
 from app import NeuralNetwork
+from time import perf_counter
 
 
 def main():
@@ -31,7 +32,6 @@ def main():
 
 
 if __name__ == "__main__":
-    from time import perf_counter
     start = perf_counter()
 
     main()
