@@ -1,4 +1,4 @@
-# neural-network
+# A simple neural network with Numpy
 Develop and run a basic neural network with Numpy for simplicity and performance. The network is a simple perceptron with 1 input layer and 1 output neuron.
 
 
@@ -12,6 +12,7 @@ If the first input is 1, the output neuron should be activated.
 Implementing a Sigmoid activation function to normalize the sum of the weights.
 
 ![alt text](https://github.com/adrienfunel/neural-network/blob/main/images/activation.jpg?raw=true)
+Nb: the bias is intentionally overlooked in the code.
 
 The network then uses the derivative of the sigmoid to calculate the gradient of the Sigmoid curve and make adjustments to the neurons.
 
